@@ -9,10 +9,8 @@ Also validates the CVC and the expiration date.
 
 Require the package in `composer.json`
 
-```json
-"require": {
-    "inacho/php-credit-card-validator": "1.*"
-},
+```php
+composer require imaddev/php-credit-card-validator
 ```
 
 If you are using Laravel, add an alias in `config/app.php`
