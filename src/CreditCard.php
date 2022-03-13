@@ -206,7 +206,7 @@ class CreditCard
     {
         $checksum = 0;
         for ($i=(2-(strlen($number) % 2)); $i<=strlen($number); $i+=2) {
-            $checksum += (int) ($numbe[$i-1]);
+            $checksum += (int) ($number[$i-1]);
         }
 
         // Analyze odd digits in even length strings or even digits in odd length strings.
