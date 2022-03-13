@@ -7,8 +7,6 @@ Also validates the CVC and the expiration date.
 
 ## Installation
 
-Require the package in `composer.json`
-
 ```php
 composer require imaddev/php-credit-card-validator
 ```
